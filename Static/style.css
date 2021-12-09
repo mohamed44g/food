@@ -1,0 +1,136 @@
+.sm-nav-par
+{
+    display: none;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .navpar
+    {
+        display: none;
+    }
+    .sm-nav-par
+    {
+        display: grid;
+    }
+}
+    
+#content
+{
+    position: relative;
+    top: 180px;
+    left: 20px;
+}
+#basic-addon2
+{
+    color: white;
+    background-color: #2fb652;
+}
+#input1
+{
+    height: 4rem;
+    
+}
+
+#input1 input
+{
+    height: 4em;
+    width: 4em;
+}
+
+.foods
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.food
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.element
+{
+    height: 400px;
+    background-color: #FFFFFF;
+    border: 1.2px solid #EFEFEF;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+.element h3
+{
+    position: relative;
+}
+
+#heart
+{
+    position: relative;
+    left: 140px;
+}
+
+#share
+{
+    position: relative;
+    left: 50px;
+}
+
+
+#card
+{
+    gap: 10px;
+}
+
+.appstore
+{
+    width: 10rem;
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 15px;
+}
+
+#bottom
+{
+    position: relative;
+    left: 10%;
+    right: 10%;
+    gap: 20px;
+    height: 12em;
+    width: 80%;
+    background-color: #e23f16;
+    border: #e23f16;
+    border-radius: 40px;
+}
+
+#form
+{
+    height: 4.5em;
+    width: 35rem;
+}
+
+.list
+{
+    opacity: 0.8;
+    font-family: sans-serif;
+    line-height: 1.5;
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgb(70, 68, 68);
+}
+
+.f-background
+{
+    width: 100%;
+    background-color: #f8f9fa;
+    margin-top: 30px;
+}
+.footer
+{
+    padding-top: 50px;
+}
